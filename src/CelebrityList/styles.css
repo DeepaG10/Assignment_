@@ -1,0 +1,42 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 10px;
+}
+
+img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  font-size: 16px;
+  color: #aaa;
+}
+
+input {
+  padding: 8px 30px 8px 50px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 100%;
+}

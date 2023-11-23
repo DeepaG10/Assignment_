@@ -1,0 +1,99 @@
+.user-accordion {
+  border: 1px solid #ddd;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 10px 0;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-header h3 {
+  margin: 0;
+}
+
+.accordion-icon {
+  font-size: 20px;
+}
+.edit-icon {
+  color: blue;
+}
+.delete-icon {
+  color: red;
+}
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.edit-mode-content {
+  padding: 10px;
+}
+
+.accordion-content {
+  padding: 10px;
+}
+
+.user-accordion.collapsed .accordion-icon {
+  transform: rotate(0deg);
+}
+
+.user-accordion.open .accordion-icon {
+  transform: rotate(180deg);
+}
+.edit-mode-content {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.edit-mode-content label {
+  display: block;
+  margin-bottom: 8px;
+}
+.height {
+  height: 25vh;
+}
+
+.edit-mode-content input,
+.edit-mode-content select,
+.edit-mode-content textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.edit-mode-content .check-icon,
+.edit-mode-content .close-icon {
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.check-icon {
+  color: lightgreen;
+}
+
+.edit-mode-content .check-icon:hover,
+.edit-mode-content .close-icon:hover {
+  color: green;
+}
+
+.edit-mode-content .close-icon {
+  color: red;
+}
+.position {
+  display: flex;
+  justify-content: end;
+}
+.edit-delete-buttons {
+  display: flex;
+  justify-content: end;
+}
